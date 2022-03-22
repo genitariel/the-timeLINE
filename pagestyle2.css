@@ -1,0 +1,198 @@
+.textbox{
+	width: 400px;
+	font-family: Times-new-roman;
+	font-size: 24px;
+	font-weight: 500;
+	color:black;
+}
+
+#textbox1{
+	position:absolute;
+	left:40px;
+	top:200px;
+}
+
+#bg{
+	position: absolute;
+    z-index: -1000;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+	overflow: hidden;
+}
+	
+.pics{
+	width: 250px;
+	height: 250px;
+}
+
+#pic3{
+	position: absolute;
+	top: 185;
+	right: 80;
+}
+
+#returnbutton{
+	position: absolute;
+	bottom: 30;
+	right: 70;
+	font-family: Times-new-roman;
+	font-size: 35px;
+	font-weight: 500;
+	color:black;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+#img1{
+	position:absolute;
+	top: 210;
+	left: 410;
+}
+
+.image{
+	position: relative;
+	width: 250px;
+}
+
+.image_img{
+	display: block;
+	width: 100%;
+}
+
+.image_overlay{
+	position: absolute;
+	z-index:1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image_overlay:hover{
+	opacity: 1;
+}
+
+.image_title{
+	font-size: 2em;
+	font-weight:500;
+}
+
+.image_description{
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+
+#img2{
+	position:absolute;
+	top: 320;
+	left: 720;
+}
+
+.image2{
+	position: relative;
+	width: 250px;
+}
+
+.image_img2{
+	display: block;
+	width: 100%;
+}
+
+.image_overlay2{
+	position: absolute;
+	z-index:1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image_overlay2:hover{
+	opacity: 1;
+}
+
+.image_title2{
+	font-size: 2em;
+	font-weight:500;
+}
+
+.image_description2{
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+
+
+#img3{
+	position:absolute;
+	top: 185;
+	right: 80;
+}
+
+.image3{
+	position: relative;
+	width: 250px;
+}
+
+.image_img3{
+	display: block;
+	width: 100%;
+}
+
+.image_overlay3{
+	position: absolute;
+	z-index:1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image_overlay3:hover{
+	opacity: 1;
+}
+
+.image_title3{
+	font-size: 2em;
+	font-weight:500;
+}
+
+.image_description3{
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+
